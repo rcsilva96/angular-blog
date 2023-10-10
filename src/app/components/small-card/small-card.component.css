@@ -21,6 +21,8 @@
     min-width: 250px;
     margin-right: 20px;
 
+    border-radius: 20px;
+
   }
 
   .small-card__title{
