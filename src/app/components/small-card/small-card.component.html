@@ -4,15 +4,24 @@
 
     <div class="small-card__photo">
 
-      <img
-        src="{{ photoCover }}"
-      >
+      <img src="{{ photoCover }}">
 
     </div>
 
-    <div class="small-card__title">
+    <div>
 
-      <h1><a href="#">{{ cardTitle }}</a></h1>
+      <div class="small-card__title">
+
+        <h1><a href="#">{{ cardTitle }}</a></h1>
+
+      </div>
+
+      <div class="authorInfo">
+
+        <img src="{{ authorPhoto }}" class="authorPhoto">
+        <p>Por {{ authorName }} </p>
+
+      </div>
 
     </div>
 
@@ -25,7 +34,3 @@
   </div>
 
 </div>
-
-
-
-

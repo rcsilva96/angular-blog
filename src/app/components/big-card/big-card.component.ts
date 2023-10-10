@@ -13,6 +13,10 @@ export class BigCardComponent implements OnInit{
   cardTitle: string = ""
   @Input()
   cardDescription: string = ""
+  @Input()
+  authorPhoto: string = ""
+  @Input()
+  authorName: string = ""
 
   constructor() {}
 

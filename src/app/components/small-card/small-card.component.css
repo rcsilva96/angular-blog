@@ -38,3 +38,21 @@
     margin: 10px;
 
   }
+
+  .authorInfo{
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+
+  .authorInfo > img {
+
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
